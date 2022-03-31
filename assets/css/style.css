@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    background-image: url("http://www.supah.it/dribbble/008/008.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+h1{
+    font-style: italic;
+    color: #565c73;
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+body :nth-child(2){
+    padding: 110px 0;
+    color: #CDD4DE;
+    opacity: 0.5;
+    font-size: 20em;
+    font-weight: 600;
+}
+
+body :nth-child(3){
+    position: relative; 
+    top: -2em; 
+    color: #CDD4DE;
+    opacity: 0.5;
+    font-size: 4em;
+    font-weight: 600;
+}
+
+body :nth-child(4){
+    position: relative; 
+    top: -4.5em; 
+    color:#CDD4DE;
+    opacity: 0.4;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+body :nth-child(5){
+    position: relative; 
+    top: 9em; 
+    padding: 10px 10px;
+    color: #CDD4DE;
+    text-decoration: none;
+    border: 1px solid;
+    opacity: 0.2;
+    font-size: 2em;
+}
+
+body :nth-child(5):hover {
+    background-color: #565c73;
+}
+
+
+/*  Assets:
+Farben: #565c73, #CDD4DE
+link-background
+Font:Roboto
+*/
